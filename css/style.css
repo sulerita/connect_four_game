@@ -1,5 +1,6 @@
 .container{
     display: flex;
+    flex-direction: column;
     margin: auto;
     width: 500px;
     height: 500px;
@@ -11,4 +12,23 @@
    background-color: rgb(62, 37, 85);
    opacity:0.6;
 }
+#red{
+    display: block;
+    border: 2px solid tomato;
+    height: auto;
+    width:40px;
+}
+#green{
+    display: block;
+    border: 2px solid teal;
+    height:auto;
+    width:50px;
 
+}
+#players{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    justify-content: space-around;
+    width:300px;
+}
