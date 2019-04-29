@@ -1,7 +1,14 @@
 .container{
     display: flex;
-    margin:auto;
-    width:500px;
-    height:500px;
-    background-color:blue;
+    margin: auto;
+    width: 500px;
+    height: 500px;
 }
+.box{
+   border:2px solid black;
+   width: 70px;
+   height: 70px;
+   background-color: rgb(62, 37, 85);
+   opacity:0.6;
+}
+
