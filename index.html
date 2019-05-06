@@ -8,13 +8,13 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <script src="js/script.js"></script>
 </head>
-<body>
+<body onload = "initializeGame()">
     <div class="container">
         <h3 id="players"> Players:
             <span id="red">Red</span>
             <span id="green">Green</span>
         </h3>
-    <table>
+    <table id="board">
         <tr id="row1">
             <td class="box col1" id="col11" onmouseout="leaveCol('col1')" onmouseover="selCol('col1')" ondblclick="boardDblClick('col1')"></td>
             <td class="box col2" id="col21" onmouseout="leaveCol('col2')" onmouseover="selCol('col2')" ondblclick="boardDblClick('col2')"></td>
